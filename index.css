@@ -1,0 +1,199 @@
+@media screen and (max-width:780px){
+    body{
+        place-items:center;
+        place-content:center;
+    }
+    nav a{
+        display:none;
+    }
+}
+body{place-content:center;}
+    #hero{ color:white;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top:20px;
+    padding-bottom: 150px;
+    padding-left:3%;
+    background-image: url(img/services-5.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-blend-mode: overlay;
+    background-color: rgb(29, 29, 29);
+}
+#hero:hover{
+    background-image: url(img/service-3.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-blend-mode: overlay;
+    background-color: rgb(41, 41, 41);
+}
+nav{
+    margin-bottom: 150px;
+}
+nav a{text-decoration:none;
+color:white;
+}
+a{
+margin:0.5rem;}
+
+a:hover{
+    color:rgb(8, 74, 243);}
+  
+    #navbtn{
+    color:white;
+    padding:0.5rem;
+    background-color: rgb(8, 74, 243);
+    border:none;
+    width:10%;
+    font-size: 15px;
+    margin-left: 50%;
+
+}
+#hero h2{font-size:90px;
+  font-weight: 700;
+    color:white;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+#hero h1{
+    color:rgb(8, 74, 243);
+    font-size:24px;
+
+}
+#hero p{
+    font-size: 19px;
+    line-height:26px;
+    margin-bottom: 40px;
+}
+#service{
+    color:black;
+    padding:0.5rem;
+    background-color: rgb(8, 74, 243);
+    border:none;
+    width:15%;
+    font-size: 15px;
+
+}
+#transparent{
+    color:white;
+    padding:0.5rem;
+    background-color:transparent;
+    outline:1px solid white;
+    border-color: white;
+    width:15%;
+    font-size: 15px;
+
+}
+#flex,#two,#three,#five,#eleven{
+    display:flex;
+}
+#container{
+    margin:1rem;
+    
+}
+#img1{
+    background-image: url(img/f-1.jpg);
+}
+#img2{
+    background-image: url(img/f-2.jpg);
+}
+
+#img3{background-position: center center;
+    background-size:cover;
+    
+
+    background-image: url(img/f-3.jpg);
+}
+#img1,#img2,#img3{background-position: center center;
+    background-size:cover;
+    padding:210px 10px 30px 10px;
+    background-blend-mode: overlay;
+    background-color: rgb(44, 44, 44);
+    width:20rem;
+    height:15rem;
+
+}
+#img1{
+   width:
+}
+#nine{color:white;
+    display:grid;
+}
+.container{
+    display:flex;
+}
+.img{
+    display:flex; /*the image column with name and position styling */
+}
+#two div{
+    
+   margin-top:-12%;
+    padding:2rem;
+    
+}
+#two{/*padding-left: */
+    place-content: center;
+    padding:5rem;
+}
+#blues{width:35%;
+    background-color: blue;
+}
+#black{width:35%;
+    background-color: white;
+}
+#eleven,#five,#eight,#nine,#seven{
+    place-content: center;
+}
+
+
+@media screen and (max-width:780px){
+    body{
+
+        place-items:center;
+        /*place-content:center;*/
+    }
+    nav a{
+        display:none;
+    }
+    #navbtn{ 
+        width:30%;
+    }
+    #nine{display:grid;}
+    #hero{padding:auto;
+        place-items: center;
+        text-align: center;
+    }
+    #flexbtn{display:grid;
+    place-content: center;
+margin:3%;}
+    #transparent,#service{
+        width:100%;
+    }
+    #two,#three,#flex,#container,#five{place-items: center;
+        display:grid;
+        
+    }
+    #nine,#eight,#address{place-items: center;
+        display:grid;}
+        
+    #address{
+        text-align:center;
+    }
+    .container{display:grid;
+    place-content: center;}
+    .img{
+        display:grid;
+        place-items: center;
+        padding:3%;
+    }
+    #blues{
+        place-items: center;
+        width:100%;
+    }
+    #blues button{
+        width:100%;
+    }
+    #black{
+        margin-top: auto;
+    }
+}
